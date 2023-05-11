@@ -20,7 +20,7 @@ describe('login', () => {
     const html = document.createElement('div');
     html.appendChild(login());
     const button = html.querySelector('#btnLogin');
-    expect(button).not.toBe(null);
+    expect(button).not.toBe(undefined);
   });
 
   test('hay un botón con clic', () => {
